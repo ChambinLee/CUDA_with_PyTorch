@@ -117,7 +117,7 @@
 
 ![1-5](./readme.assets/1-5.png)
 
-- readme涉及到的内存结构如上图所示。
+- CUDA编程涉及到的内存结构如上图所示。
   - Host: CPU Memory
     - 通过PCIe Bus在CPU和GPU之间传输数据。使用的函数包括cudaMalloc（内存分配）、cudaMemcpy（内存拷贝）、cudaMemset（内存设置）、cudaFree（内存释放）。
   - Global Memory: 全局内存。
