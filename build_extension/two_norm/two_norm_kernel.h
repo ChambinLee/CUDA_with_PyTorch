@@ -1,0 +1,1 @@
+void launch_two_norm(const float *a,const float *b,float *c, int n, int m);
